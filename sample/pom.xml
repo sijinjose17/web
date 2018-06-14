@@ -17,5 +17,11 @@
   </dependencies>
   <build>
     <finalName>sample</finalName>
+    <plugins>
+      <plugin>
+	      <artifactId>maven-war-plugin</artifactId>
+	      <version>2.6</version>
+      </plugin>
+    </plugins>
   </build>
 </project>
